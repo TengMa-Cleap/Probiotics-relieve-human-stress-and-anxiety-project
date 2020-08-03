@@ -40,6 +40,25 @@ cat sample_names | parallel -j 10 bbmap.sh ref=all_rename_bins.fa in1=./all_samp
 # For identify of neuroactive compounds
 java -jar -Xmx500g /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/omixer-rpm-1.1.jar -d /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/new_pipeline_452/new_pathway.f  -i bin_kegg_matrix -t 20 -o omixer_out  -e 2 -c 0.66
 
-
+## The R code used in present study
+# NMDS plot
+library(vegan)
+library(ggplot2)
+setwd("D:\Users\Administrator\Documents\Desktop")
+bray <- read.table("bray.txt", row.names = 1, sep = '\t', header = T)
+group <- read.table("group.txt", sep = '\t', header = T)
+nmds1 <- metaMDS(otu, distance = 'bray', k = 2)
+sample_site <- data.frame(nmds1$point)
+sample_site$names <- rownames(sample_site)
+names(sample_site)[1:2] <- c('NMDS1', 'NMDS2')
+# nmds1.species <- data.frame(nmds1$species) 
+# nmds1.stress <- nmds1$stress 
+sample_site <- merge(sample_site, group, by = 'names', all.x = TRUE)
+ggplot(sample_site, aes(NMDS1, NMDS2, group = group)) + geom_point(aes(color = group, shape = group), size = 3.5, alpha = 0.8) + 
+	scale_shape_manual(values = c(17, 16, 15)) + 
+	scale_color_manual(values = c('red', 'blue', "green")) + 
+		theme(panel.grid = element_blank(), panel.background = element_rect(color = 'black', fill = 'transparent')) +
+		theme(legend.key = element_rect(fill = 'transparent'), legend.title = element_blank()) + 
+			labs(x = 'NMDS axis1', y = 'NMDS axis2', title = paste('Stress =', round(nmds1$stress, 4))) + theme(plot.title = element_text(hjust = 0.5))
 
 
