@@ -61,4 +61,58 @@ ggplot(sample_site, aes(NMDS1, NMDS2, group = group)) + geom_point(aes(color = g
 		theme(legend.key = element_rect(fill = 'transparent'), legend.title = element_blank()) + 
 			labs(x = 'NMDS axis1', y = 'NMDS axis2', title = paste('Stress =', round(nmds1$stress, 4))) + theme(plot.title = element_text(hjust = 0.5))
 
+# barplot & violinplot 
+library(ggpubr)
+setwd("D:\Users\Administrator\Documents\Desktop")
+data <- read.table("Bray_curtics.txt",sep='\t', header=T, row.names=1, check=F, comment='')
+p <- ggboxplot(data, x="group1", y="dat", color = "group1", 
+               palette = c("#00AFBB", "#E7B800"), 
+               add = "jitter", shape="group1")
+g <- ggviolin(data, x="group2", y="dat", fill = "group2", 
+         palette = c("#00AFBB", "#E7B800", "#FC4E07"), 
+         add = "boxplot", add.params = list(fill="white")) + stat_compare_means(comparisons = my_comparisons, label = "p.signif")
+
+# procrustes analysis
+library(reshape2)
+library(ggplot2)
+library(dplyr)
+library(phyloseq)
+library(ggsci)
+library(ggpubr)
+library(plyr)
+library(ggpubr)
+library(cowplot)
+library(vegan)
+library(ggcor)
+library(ggcorrplot)
+
+mp = read.table("mp.txt", sep="\t", header=T, row.names=1)
+# index
+index = read.table("index.txt", sep="\t", header=T, row.names=1)
+index_bray = vegdist(t(index[, 2:ncol(index)]), method = "bray")
+INA = monoMDS(index_bray)$point %>% as.data.frame()
+# taxa
+taxa_ab = read.table("taxa", sep="\t", header=T, row.names=1)
+taxa_ab_bray = vegdist(t(taxa_ab[, 2:ncol(index)]), method = "bray")
+INB = monoMDS(taxa_ab_bray)$point %>% as.data.frame()
+# order
+INA = INA[order(rownames(INA)), ] ; 
+INB = INB[order(rownames(INB)), ] ;
+# procrustes
+procrustes.results <- ade4::procuste(INA, INB)
+A = procrustes.results$tabX %>% as.data.frame() ; A$Sample = rownames(A)
+B = procrustes.results$tabY %>% as.data.frame() ; B$Sample = rownames(B)
+INA_sp = INA;  INA_sp$Sample = rownames(INA)
+INB_sp = INB;  INB_sp$Sample = rownames(INB)
+
+plot_pro$method = rep(c("index", "taxa"), each = 314) 
+plot_pro = merge(plot_pro, mp, by = "Sample")
+
+###P values
+pro_test = protest(X = INA, Y = INB, scores = "sites", permutations = 999)
+plot_pro_ggpt = ggplot(plot_pro, aes(MDS1, MDS2, color = Time, shape = method)) + 
+    geom_point(size = 3) +
+    geom_line(aes(group = Sample, color = Time), alpha=0.5) + 
+    ggtitle("Procruste rotation comparing NMDS from index to taxa; correlation = xx, p=xx") + scale_color_npg() + theme_bw()+ theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank()) 
+
 
