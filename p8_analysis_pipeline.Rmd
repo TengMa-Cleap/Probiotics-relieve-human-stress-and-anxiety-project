@@ -108,11 +108,17 @@ INB_sp = INB;  INB_sp$Sample = rownames(INB)
 plot_pro$method = rep(c("index", "taxa"), each = 314) 
 plot_pro = merge(plot_pro, mp, by = "Sample")
 
-###P values
+#P values
 pro_test = protest(X = INA, Y = INB, scores = "sites", permutations = 999)
 plot_pro_ggpt = ggplot(plot_pro, aes(MDS1, MDS2, color = Time, shape = method)) + 
     geom_point(size = 3) +
     geom_line(aes(group = Sample, color = Time), alpha=0.5) + 
     ggtitle("Procruste rotation comparing NMDS from index to taxa; correlation = xx, p=xx") + scale_color_npg() + theme_bw()+ theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank()) 
+
+# Adonis
+library(vegan)
+distance =read.table("bray.txt", row.names=1, header=T,sep = "\t")
+group =read.table("group", header=T,sep = "\t")
+adonis(distance ~ time, data= group,permutations = 999)
 
 
