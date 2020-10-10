@@ -37,28 +37,18 @@ checkm lineage_wf -x fa -t 32 --pplacer_threads 32 bins_80_5 bins_80_5_checkm
 summarize_checkm.py bins_80_5_checkm/storage/bin_stats_ext.tsv > bins_80_5_checkm.summary
 ```
 
-### 7. ***For gene predicting: Prodigal***
+### 7. ***For gene predicting and genome protein annotation: Prodigal and diamond(blastp)***
 ```
 ls -d S* | parallel -j 4 bwa index -a bwtsw {}/{}_contigs_min2000.fasta
 ls -d S* | parallel -j 4 bwa mem -t 10 {}/{}_Output_contigs_min2000.fasta ../../0.1_clean_data/all_sample/{}/{}.rmhost_1.fastq.gz ../../0.1_clean_data/all_sample/{}/{}.rmhost_2.fastq.gz -o {}/{}.sam 
 for i in `ls -d S*`; do samtools view -bS -@ 12 ${i}/${i}.sam | samtools sort - -o ${i}/${i}.sort.bam; done 
-```
-
-### 8. ***For genome protein annotation: diamond(blastp)***
-````
 diamond blastp --threads 32 --max-target-seqs 10 --db  /nvmessdnode3/opt/database/uniport/uniprot_trembl_sport.dmnd --query all_combine.faa --outfmt 6 qseqid sseqid stitle pident qlen slen length mismatch gapopen qstart qend sstart send evalue bitscore --out all_combine.dia
 ```
 
-### 9. ***For map raw reads to the scaffolds: BBMap***
+
+
+### 8. ***For map raw reads to the scaffolds and identify of neuroactive compounds: BBMap***
+````
+diamond blastp --threads 32 --max-target-seqs 10 --db  /nvmessdnode3/opt/database/uniport/uniprot_trembl_sport.dmnd --query all_combine.faa --outfmt 6 qseqid sseqid stitle pident qlen slen length mismatch gapopen qstart qend sstart send evalue bitscore --out all_combine.dia
+####java -jar -Xmx500g /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/omixer-rpm-1.1.jar -d /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/new_pipeline_452/new_pathway.f  -i bin_kegg_matrix -t 20 -o omixer_out  -e 2 -c 0.66
 ```
-cat sample_names | parallel -j 10 bbmap.sh ref=all_rename_bins.fa in1=./all_sample/{}/{}_paired_1.fastq.gz in2=./all_sample/{}/{}_paired_2.fastq.gz -Xmx50g threads=10 unpigz=T out=bbmap_out/{}.sam minid=0.95 idfilter=0.95
-```
-
-### 10. ***For identify of neuroactive compounds***
-```
-java -jar -Xmx500g /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/omixer-rpm-1.1.jar -d /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/new_pipeline_452/new_pathway.f  -i bin_kegg_matrix -t 20 -o omixer_out  -e 2 -c 0.66
-```
-
-
-
-
