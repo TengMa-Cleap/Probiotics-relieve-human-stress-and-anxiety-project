@@ -47,7 +47,7 @@ diamond blastp --threads 32 --max-target-seqs 10 --db  /nvmessdnode3/opt/databas
 
 
 
-### 8. ***For map raw reads to the scaffolds and identify of neuroactive compounds: BBMap***
+### 8. ***For map raw reads to the scaffolds and identify of neuroactive compounds: BBMap and omixer***
 ````
 diamond blastp --threads 32 --max-target-seqs 10 --db  /nvmessdnode3/opt/database/uniport/uniprot_trembl_sport.dmnd --query all_combine.faa --outfmt 6 qseqid sseqid stitle pident qlen slen length mismatch gapopen qstart qend sstart send evalue bitscore --out all_combine.dia
 ####java -jar -Xmx500g /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/omixer-rpm-1.1.jar -d /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/new_pipeline_452/new_pathway.f  -i bin_kegg_matrix -t 20 -o omixer_out  -e 2 -c 0.66
