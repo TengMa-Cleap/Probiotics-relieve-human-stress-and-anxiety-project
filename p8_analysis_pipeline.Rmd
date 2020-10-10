@@ -1,44 +1,8 @@
 ---
-Title: "P8_project_analysis_pipeline"
+Title: "P8_project_R_code"
 Author: TengMa
 Time: 2020.08.01
 ---
-
-## Bioinformatics software and key codes for metagenomic sequencing analysis
-# For quality control and de_hosting: KneadData and Bowtie2 
-klab_metaqc qc -s data.list -t human -j 10 -o qc_result_folder_rmhuman -f # klab_metaqc is a simple process combining the above two tools
-
-# For assembling: Megahit
-ls -d *| parallel -j 5 megahit -m 0.5 --min-contig-len 200 -t 10 --out-dir {}_Output_ass --out-prefix {} -1 {}/{}.rmhost.r1.fq.gz -2 {}/{}.rmhost.r2.fq.gz ::: * # parallel code
-
-# For genome Binning: MaxBin2 and MetaBAT2
-ls -d Sample* | parallel -j 3 metawrap binning -a Assembly_result/{}_Output_ass/{}_Output_contigs_min2000.fasta -o {}/{}.bins -t 16 --metabat2 --maxbin2 --concoct -l 2000 {}/{}.rmhost_1.fastq {}/{}.rmhost_2.fastq # parallel code
-
-# For bin_refinement: MetaWRAP
-ls -d *bin | parallel -j 5 metawrap bin_refinement -t 5 -m 200 -c 50 -x 10 -A {}/maxbin2_bins -B {}/metabat2_bins -o {}/metawrap # parallel code
-
-# For genome de_replicate: dRep
-cat bins_80_5_checkm.summary | awk 'BEGIN{OFS=",";}{print $1 ".fa", $2, $3}' > ./bins_80_5_checkm_info
-sed 's/bin.fa,/genome,/g' bins_80_5_checkm_info > bins_80_5_checkm_info.csv
-dRep dereplicate dereplicate_result -pa 0.95 -sa 0.95 -g ./bins_80_5/* -p 32 --genomeInfo bins_80_5_checkm_info.csv
-
-# For genome quality evaluate: checkM
-checkm lineage_wf -x fa -t 32 --pplacer_threads 32 bins_80_5 bins_80_5_checkm
-summarize_checkm.py bins_80_5_checkm/storage/bin_stats_ext.tsv > bins_80_5_checkm.summary
-
-# For gene predicting: Prodigal
-ls -d S* | parallel -j 4 bwa index -a bwtsw {}/{}_contigs_min2000.fasta
-ls -d S* | parallel -j 4 bwa mem -t 10 {}/{}_Output_contigs_min2000.fasta ../../0.1_clean_data/all_sample/{}/{}.rmhost_1.fastq.gz ../../0.1_clean_data/all_sample/{}/{}.rmhost_2.fastq.gz -o {}/{}.sam 
-for i in `ls -d S*`; do samtools view -bS -@ 12 ${i}/${i}.sam | samtools sort - -o ${i}/${i}.sort.bam; done 
-
-# For genome protein annotation: diamond(blastp)
-diamond blastp --threads 32 --max-target-seqs 10 --db  /nvmessdnode3/opt/database/uniport/uniprot_trembl_sport.dmnd --query all_combine.faa --outfmt 6 qseqid sseqid stitle pident qlen slen length mismatch gapopen qstart qend sstart send evalue bitscore --out all_combine.dia
-
-# For map raw reads to the scaffolds: BBMap
-cat sample_names | parallel -j 10 bbmap.sh ref=all_rename_bins.fa in1=./all_sample/{}/{}_paired_1.fastq.gz in2=./all_sample/{}/{}_paired_2.fastq.gz -Xmx50g threads=10 unpigz=T out=bbmap_out/{}.sam minid=0.95 idfilter=0.95
-
-# For identify of neuroactive compounds
-java -jar -Xmx500g /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/omixer-rpm-1.1.jar -d /nvmessdnode3/opt/software/omixer/omixer-rpm-1.1/new_pipeline_452/new_pathway.f  -i bin_kegg_matrix -t 20 -o omixer_out  -e 2 -c 0.66
 
 ## The R code used in present study
 # NMDS plot
