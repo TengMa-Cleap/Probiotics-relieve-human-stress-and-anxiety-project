@@ -30,3 +30,4 @@ meta_physeq_t = microbiome::transform(meta_physeq, 'clr')
 dist.aitch <- vegdist(meta_physeq_t, method = "euclidean", binary=FALSE, diag=FALSE, upper=FALSE, na.rm = FALSE)
 Aitch <- as.matrix(dist.aitch)
 write.table(Aitch, "Aitch.txt", quote = F, sep = "\t", row.names = F)
+
