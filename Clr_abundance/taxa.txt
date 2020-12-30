@@ -1,0 +1,590 @@
+ID	Taxonomy
+Sample_S29B.32	Collinsella aerofaciens
+Sample_S23B.19	Collinsella aerofaciens
+Sample_s159.33	Prevotella copri
+Sample_S35A.13	Clostridium sp. CAG:568
+Sample_S32A.38	Collinsella aerofaciens
+Sample_s109.21	Collinsella aerofaciens
+Sample_H2_46.21	Prevotella sp. CAG:732
+Sample_S19B.57	Collinsella aerofaciens
+Sample_S33A.36	Bifidobacterium adolescentis
+Sample_S33A.33	Megamonas funiformis
+Sample_S13B.8	[Eubacterium] rectale
+Sample_H1_12.6	Alistipes putredinis
+Sample_s154.21	Bifidobacterium pseudocatenulatum
+Sample_s112.17	Firmicutes bacterium CAG:582
+Sample_s164.6	Sutterella wadsworthensis
+Sample_S32B.45	Clostridiales bacterium
+Sample_S2A.2	uncultured Ruminococcus sp.
+Sample_H2_28.39	Prevotella sp.
+Sample_S18A.4	Collinsella aerofaciens
+Sample_S28B.47	Clostridium sp. CAG:510
+Sample_s185.13	Alistipes sp. 5NYCFAH2
+Sample_S24A.11	Faecalibacterium prausnitzii
+Sample_S7B.13	Lactobacillus animalis
+Sample_S34A.12	Roseburia sp. OF03-24
+Sample_H2_96.13	Collinsella sp. AF38-3AC
+Sample_S14B.5	Prevotella copri
+Sample_H1_12.8	Clostridium sp. CAG:914
+Sample_S29A.15	Prevotella sp. CAG:5226
+Sample_s185.11	Eggerthella lenta
+Sample_s200.27	Parolsenella catena
+Sample_s97.9	Butyrivibrio sp.
+Sample_S14A.4	Faecalibacterium prausnitzii
+Sample_s184.38	Collinsella aerofaciens
+Sample_S33B.34	Dialister succinatiphilus
+Sample_S3B.23	Prevotella sp. CAG:5226
+Sample_S38B.56	Catenibacterium mitsuokai
+Sample_s112.16	Firmicutes bacterium CAG:313
+Sample_S16B.16	Collinsella aerofaciens
+Sample_H2_109.45	Acholeplasma sp. CAG:878
+Sample_S35A.18	Clostridiales bacterium
+Sample_S7A.21	Prevotella sp. CAG:891
+Sample_P18.46	Faecalibacterium prausnitzii
+Sample_S5A.47	Bacteroides sp. CAG:709
+Sample_S11B.29	Coriobacteriaceae bacterium
+Sample_P15.14	Prevotella sp. 885
+Sample_H2_84.10	Collinsella aerofaciens
+Sample_s112.3	Enterococcus faecium
+Sample_s94.17	Firmicutes bacterium CAG:124
+Sample_H1_12.58	Clostridiales bacterium
+Sample_S34B.5	Sutterella wadsworthensis
+Sample_s207.23	Eubacterium sp. CAG:581
+Sample_H2_61.45	Mycoplasma sp. CAG:472
+Sample_S40A.33	Ruminococcaceae bacterium
+Sample_H2_09.35	Prevotella copri
+Sample_s128.35	Ruminococcaceae bacterium
+Sample_H2_09.20	Bifidobacterium ruminantium
+Sample_S39B.2	Azospirillum sp. 51_20
+Sample_H2_109.14	Elusimicrobia bacterium
+Sample_s112.47	Firmicutes bacterium
+Sample_S24B.1	Coriobacteriia bacterium
+Sample_S32B.16	Bifidobacterium gallinarum
+Sample_S6B.28	Firmicutes bacterium CAG:129
+Sample_H2_13.31	Prevotella sp.
+Sample_S4A.12	Collinsella aerofaciens
+Sample_s89.16	Ruminococcaceae bacterium
+Sample_s97.14	Prevotella sp. CAG:5226
+Sample_H1_11.20	Eubacterium sp. CAG:841
+Sample_S9B.5	uncultured Flavonifractor sp.
+Sample_S34A.29	Collinsella aerofaciens
+Sample_P11.21	Clostridiales bacterium
+Sample_H2_28.13	Catenibacterium sp. AM22-15
+Sample_S6B.33	Sutterella megalosphaeroides
+Sample_s207.20	Akkermansia muciniphila
+Sample_S9A.25	Klebsiella variicola
+Sample_S15A.7	Prevotella sp. MGM2
+Sample_S27A.4	Bacteroides coprophilus
+Sample_S11B.27	Eubacterium sp. AM28-29
+Sample_S41A.29	Prevotella sp. CAG:520
+Sample_H2_46.1	Dialister succinatiphilus
+Sample_H1_11.45	Clostridium sp. CAG:762
+Sample_S31A.41	Bacteroides thetaiotaomicron
+Sample_H2_28.33	Collinsella aerofaciens
+Sample_P18.15	Akkermansia muciniphila
+Sample_P08.6	Collinsella sp. AM34-10
+Sample_H2_28.44	Alistipes sp. CAG:435
+Sample_H1_08.8	Clostridium sp. TM06-18
+Sample_P08.27	Sutterella sp. CAG:397
+Sample_s154.7	Collinsella intestinalis
+Sample_s184.3	Megasphaera sp. NM10
+Sample_S11B.18	Coriobacteriia bacterium
+Sample_S19B.1	Faecalibacterium prausnitzii
+Sample_s207.30	Faecalibacterium prausnitzii
+Sample_s96.17	Olsenella sp. AF21-51
+Sample_H2_119.37	Bacteroides vulgatus
+Sample_s164.2	uncultured Oscillibacter sp.
+Sample_H2_76.10	Eubacterium coprostanoligenes
+Sample_S33B.17	Firmicutes bacterium CAG:176_63_11
+Sample_S20A.12	Prevotella sp. 885
+Sample_s153.38	Clostridiales bacterium
+Sample_P01.32	Oscillibacter sp.
+Sample_s153.11	Clostridium sp. CAG:138
+Sample_s104.8	Clostridium sp. CAG:609
+Sample_H2_82.59	Firmicutes bacterium CAG:124
+Sample_S14A.14	Phascolarctobacterium faecium
+Sample_S5B.50	Acholeplasma sp. CAG:878
+Sample_s89.36	Clostridium sp. CAG:413
+Sample_S38A.6	Flavonifractor plautii
+Sample_H2_09.38	Coprococcus sp. ART55/1
+Sample_S24B.28	Oscillibacter sp.
+Sample_H1_11.21	Mycoplasma sp. CAG:611
+Sample_S37B.13	Firmicutes bacterium CAG:341
+Sample_s185.22	Ruthenibacterium lactatiformans
+Sample_H2_96.27	Tyzzerella nexilis
+Sample_S5A.33	Eubacterium sp. CAG:841
+Sample_S1B.24	Enterobacter sp. BIDMC92
+Sample_s89.7	Mycoplasma sp. CAG:877
+Sample_S22B.28	Clostridiales bacterium
+Sample_H2_13.15	Ruminococcaceae bacterium
+Sample_S31A.26	Subdoligranulum sp. 60_17
+Sample_S13A.27	Collinsella aerofaciens
+Sample_S35A.25	Ruminococcaceae bacterium
+Sample_S10B.9	Sutterella wadsworthensis
+Sample_S20A.18	Ruminococcaceae bacterium
+Sample_S19B.14	Akkermansia muciniphila
+Sample_s143.38	Ruminococcaceae bacterium
+Sample_S42A.17	Ruminococcaceae bacterium
+Sample_H1_22.26	Bacteroides plebeius
+Sample_S2A.10	Bacteroides eggerthii
+Sample_S22A.13	Fusicatenibacter saccharivorans
+Sample_s185.21	Bilophila wadsworthia
+Sample_S12A.20	Dialister sp. 5BBH33
+Sample_H1_09.43	Clostridium sp. CAG:451
+Sample_s98.36	Varibaculum cambriense
+Sample_S14A.39	Bacteroides clarus
+Sample_S23A.1	Firmicutes bacterium CAG:83
+Sample_S33B.44	Clostridiales bacterium
+Sample_s159.24	Ruminococcaceae bacterium
+Sample_H2_25.30	Dialister succinatiphilus
+Sample_s90.32	Mitsuokella multacida
+Sample_H2_09.33	Bacteroides plebeius
+Sample_s89.28	Verrucomicrobia bacterium CAG:312_58_20
+Sample_S23B.2	Bacteroides uniformis
+Sample_S28B.35	Sutterella wadsworthensis
+Sample_S24B.37	Desulfovibrio fairfieldensis
+Sample_H1_11.19	Dialister sp.
+Sample_S15A.8	Oscillibacter sp.
+Sample_s11.20	Sutterella wadsworthensis
+Sample_P01.46	Megasphaera sp. AM44-1BH
+Sample_H2_84.13	Acidaminococcus intestini
+Sample_S26A.4	Dialister sp.
+Sample_s184.33	Firmicutes bacterium CAG:110
+Sample_S8A.22	Anaerotruncus sp. CAG:528
+Sample_S29B.35	Bilophila sp. 4_1_30
+Sample_P12.6	Roseburia inulinivorans
+Sample_H2_119.2	Victivallis vadensis
+Sample_H1_19.7	Eubacterium sp. CAG:86
+Sample_S32B.10	Alistipes sp. cv1
+Sample_S23A.29	Elusimicrobium sp. An273
+Sample_S25B.23	Oscillibacter sp. 57_20
+Sample_S26B.36	Ruminococcus sp. CAG:488
+Sample_S9A.27	Collinsella aerofaciens
+Sample_H2_109.2	Lachnospiraceae bacterium
+Sample_S11B.21	Succinatimonas sp. CAG:777
+Sample_S20B.16	Ruminococcaceae bacterium
+Sample_S8B.38	Oscillibacter sp.
+Sample_S12A.4	Collinsella tanakaei
+Sample_H1_09.33	Prevotella sp. CAG:1031
+Sample_H2_92.4	Eubacterium sp.
+Sample_S19A.2	Escherichia coli
+Sample_s164.1	uncultured Clostridium sp.
+Sample_S6B.6	Mitsuokella sp. AF21-1AC
+Sample_S4A.8	Bifidobacterium longum
+Sample_H2_96.7	Lachnospiraceae bacterium
+Sample_s90.26	Clostridium sp. CAG:226
+Sample_S5B.35	Clostridium sp. SCN 57-10
+Sample_S18A.14	Alistipes sp. 6CPBBH3
+Sample_H2_09.1	Clostridiales bacterium
+Sample_S39A.23	Acetobacter sp. 46_36
+Sample_S34A.6	uncultured Clostridium sp.
+Sample_S5B.17	Victivallis vadensis
+Sample_P12.30	Clostridiales bacterium
+Sample_S19B.17	Prevotella sp. CAG:873
+Sample_H1_09.10	Clostridium sp. CAG:768
+Sample_S32B.31	Olsenella sp. An285
+Sample_H1_11.71	Prevotella sp. AM34-19LB
+Sample_H2_09.14	Prevotella sp. 885
+Sample_S12B.28	Slackia isoflavoniconvertens
+Sample_s143.23	Lentisphaeria bacterium
+Sample_s98.6	Mobiluncus curtisii
+Sample_H2_92.5	Ruminococcaceae bacterium
+Sample_H2_76.7	Clostridiales bacterium
+Sample_H1_11.62	Desulfovibrio sp. AM18-2
+Sample_S21B.16	Victivallis vadensis
+Sample_S37B.22	Firmicutes bacterium CAG:270
+Sample_S4A.23	[Eubacterium] eligens
+Sample_s89.19	Clostridiales bacterium
+Sample_S19B.23	Selenomonadales bacterium
+Sample_H2_109.40	Clostridiales bacterium
+Sample_s158.21	Oscillibacter sp.
+Sample_H1_14.2	Collinsella aerofaciens
+Sample_H1_09.13	Collinsella aerofaciens
+Sample_H2_107.2	Lentisphaeria bacterium
+Sample_H2_24.1	Lactobacillus rogosae
+Sample_H2_13.17	Prevotella sp. CAG:474
+Sample_S24A.26	Collinsella intestinalis
+Sample_H2_109.9	Clostridiales bacterium
+Sample_s185.17	uncultured Flavonifractor sp.
+Sample_H2_09.16	Roseburia faecis
+Sample_S13B.9	Megasphaera sp. MJR8396C
+Sample_P18.42	uncultured Ruminococcus sp.
+Sample_P06.5	Lachnospiraceae bacterium
+Sample_S40A.12	Eubacterium ventriosum
+Sample_P11.3	Coprococcus eutactus
+Sample_H1_14.26	Ruminococcus bromii
+Sample_H2_09.2	Holdemanella biformis
+Sample_s153.33	Lentisphaeria bacterium
+Sample_P18.23	Lactobacillus ruminis
+Sample_H1_08.14	Clostridium sp. AM28-20LB
+Sample_s168.2	Denitrobacterium detoxificans
+Sample_s90.16	Lentisphaeria bacterium
+Sample_S33B.8	Clostridiales bacterium
+Sample_H2_25.6	uncultured Roseburia sp.
+Sample_s148.41	Clostridiales bacterium
+Sample_H2_46.2	Megasphaera sp. AM44-1BH
+Sample_S5B.44	Coriobacteriia bacterium
+Sample_H1_08.15	Clostridium sp. CAG:265
+Sample_H2_92.30	Firmicutes bacterium
+Sample_s98.35	Phascolarctobacterium succinatutens
+Sample_S42A.1	Clostridium sp. CAG:715
+Sample_S20B.20	Bilophila sp. 4_1_30
+Sample_s201.14	Firmicutes bacterium ADurb.Bin467
+Sample_S23A.30	Bacteroides sp. CAG:462
+Sample_s127.8	Eubacterium sp. CAG:252
+Sample_H2_24.23	Clostridium sp. CAG:354_28_25
+Sample_S21B.42	Chlamydia trachomatis
+Sample_S9A.14	Parabacteroides merdae
+Sample_s97.2	Clostridiales bacterium
+Sample_S11A.31	Mycoplasma sp. CAG:877
+Sample_s159.30	Klebsiella pneumoniae
+Sample_S28A.40	Clostridium sp. CAG:710
+Sample_S42A.20	Brachyspira sp. CAG:484
+Sample_S33A.27	Bacteroides finegoldii
+Sample_S18A.25	Faecalibacterium prausnitzii
+Sample_s77.1	Dorea sp. CAG:317
+Sample_S14A.28	Akkermansia muciniphila
+Sample_S16A.46	Ruminococcus sp.
+Sample_H2_76.15	Bacteroides fragilis
+Sample_S42B.7	uncultured Coprococcus sp.
+Sample_S19B.33	Firmicutes bacterium CAG:321
+Sample_S40A.19	Alistipes shahii
+Sample_S1A.4	Cyanobacteria bacterium UBA10660
+Sample_H2_37.25	Firmicutes bacterium CAG:460
+Sample_P11.23	Eubacterium sp. 45_250
+Sample_P18.40	Lachnospiraceae bacterium
+Sample_S38B.37	Ruminococcaceae bacterium
+Sample_P01.49	Megasphaera elsdenii
+Sample_S38B.26	Clostridiales bacterium
+Sample_S23A.10	Eubacterium sp. CAG:251
+Sample_S32B.33	Evtepia gabavorous
+Sample_H2_28.6	Methanocorpusculum parvum
+Sample_S18A.21	Eubacterium sp. TM05-53
+Sample_s112.52	Clostridia bacterium
+Sample_S17B.36	Desulfovibrio sp.
+Sample_S11B.32	Dorea longicatena
+Sample_S22A.1	Collinsella aerofaciens
+Sample_S39B.10	Eggerthella sp. AM16-19
+Sample_S14A.15	Sutterella megalosphaeroides
+Sample_H2_61.61	Clostridia bacterium
+Sample_S42A.10	Sutterella sp. AM11-39
+Sample_s98.44	Schaalia turicensis
+Sample_s185.18	Clostridium sp. CAG:58
+Sample_S5B.7	Desulfovibrio piger
+Sample_S17B.10	Alistipes sp.
+Sample_P11.40	Lachnospiraceae bacterium
+Sample_S10B.22	Mitsuokella jalaludinii
+Sample_s98.65	Porphyromonas sp. HMSC065F10
+Sample_S9B.34	Evtepia gabavorous
+Sample_H1_09.48	Ruminococcaceae bacterium AF10-16
+Sample_S15A.21	Prevotella sp. CAG:873
+Sample_H2_119.4	Fusobacterium mortiferum
+Sample_S33B.53	Firmicutes bacterium CAG:176
+Sample_S43A.3	Bacteroides sp. CAG:770
+Sample_H2_119.23	[Ruminococcus] torques
+Sample_S37B.16	Collinsella stercoris
+Sample_S19B.48	Firmicutes bacterium
+Sample_H2_84.4	Clostridium sp. CAG:678
+Sample_s92.19	Ruminococcaceae bacterium
+Sample_S10A.25	Ruminococcus sp. OM06-36AC
+Sample_S6A.23	Parabacteroides sp. CAG:409
+Sample_H2_92.1	Roseburia sp. CAG:197_41_10
+Sample_s109.19	[Ruminococcus] gnavus
+Sample_S39A.25	Eubacterium sp. CAG:274
+Sample_S8A.16	Ruminococcus bromii
+Sample_S20B.9	Clostridium sp. CAG:524
+Sample_S32B.11	Clostridiales bacterium
+Sample_H1_11.24	Azospirillum sp.
+Sample_P01.40	Sutterella sp. CAG:521
+Sample_s94.28	Desulfovibrionaceae bacterium
+Sample_s201.15	Methanobrevibacter smithii CAG:186
+Sample_H1_22.38	uncultured Lachnospira sp.
+Sample_H1_22.15	Bacteroides xylanisolvens
+Sample_P18.37	Alistipes indistinctus
+Sample_H2_13.19	Ruminococcus lactaris
+Sample_S15B.29	Clostridium sp. CAG:451
+Sample_s98.24	Clostridiales bacterium
+Sample_S14A.21	Paraprevotella clara CAG:116
+Sample_S32A.39	Eubacterium sp. CAG:38
+Sample_H2_28.42	Selenomonadales bacterium
+Sample_S23A.5	Bacteroides stercoris
+Sample_H1_12.44	Acholeplasmatales bacterium
+Sample_S42B.10	Clostridiales bacterium
+Sample_S14A.33	Collinsella sp. CAG:398
+Sample_H2_92.14	uncultured Ruminococcus sp.
+Sample_S4B.10	Alistipes sp. 5CPEGH6
+Sample_H1_14.10	Barnesiella intestinihominis
+Sample_s98.1	uncultured Clostridium sp.
+Sample_S26A.49	Lentisphaeria bacterium
+Sample_s96.11	Olsenella sp. An270
+Sample_S34B.2	Subdoligranulum sp. 60_17
+Sample_s158.29	Clostridiales bacterium
+Sample_S32B.35	Firmicutes bacterium CAG:137
+Sample_H1_09.35	Streptococcus salivarius
+Sample_S21A.35	Prevotella stercorea
+Sample_S20A.54	Bacteroides caccae
+Sample_s98.5	Tissierellia bacterium S7-1-4
+Sample_s154.25	Proteobacteria bacterium CAG:139
+Sample_s207.2	Asaccharobacter celatus
+Sample_S38B.64	Clostridiales bacterium
+Sample_H1_12.2	Oscillibacter sp.
+Sample_H2_76.9	Rikenellaceae bacterium
+Sample_S17B.6	Butyricicoccus sp. AM29-23AC
+Sample_s11.10	Clostridium sp. TM06-18
+Sample_S13A.28	Subdoligranulum variabile
+Sample_P01.12	Bacteroides sp. AM16-15
+Sample_S37B.11	uncultured Blautia sp.
+Sample_S9A.20	Alistipes sp. 56_11
+Sample_S43A.17	Clostridiales bacterium 41_21_two_genomes
+Sample_H1_11.16	Muribaculaceae bacterium Isolate-102 (HZI)
+Sample_S35A.26	Porphyromonadaceae bacterium
+Sample_s154.9	Blautia sp. CAG:257
+Sample_S10A.7	Faecalibacterium prausnitzii
+Sample_S14A.27	uncultured Megasphaera sp.
+Sample_S20B.28	Clostridium sp. CAG:710
+Sample_P15.2	Bifidobacterium bifidum
+Sample_S30B.16	Bilophila sp. 4_1_30
+Sample_s203.47	Verrucomicrobia bacterium CAG:312_58_20
+Sample_P01.20	Paraprevotella clara CAG:116
+Sample_S12B.6	Enterococcus faecium
+Sample_S25B.12	Flavonifractor sp. An100
+Sample_S4A.3	Phascolarctobacterium sp. CAG:266
+Sample_s154.6	Slackia piriformis
+Sample_H2_92.43	Odoribacter splanchnicus
+Sample_H2_76.38	Clostridium sp. CAG:594
+Sample_S11B.9	Coprococcus eutactus
+Sample_s98.54	Peptostreptococcaceae bacterium oral taxon 929
+Sample_H2_84.36	Alistipes onderdonkii
+Sample_H2_109.17	Acholeplasma sp. CAG:878
+Sample_H1_12.18	Acidiphilium sp. CAG:727
+Sample_S39A.20	Lachnoclostridium sp.
+Sample_H2_107.52	Ruminococcaceae bacterium
+Sample_S20B.36	Clostridiales bacterium
+Sample_P08.34	Ruminococcaceae bacterium D16
+Sample_P18.6	Clostridiales bacterium
+Sample_s143.60	Ruminococcaceae bacterium
+Sample_S23B.21	Clostridiales bacterium
+Sample_S9B.28	Alistipes finegoldii CAG:68
+Sample_H2_107.40	Verrucomicrobia bacterium CAG:312_58_20
+Sample_H2_84.8	Parabacteroides distasonis
+Sample_S32B.40	Clostridium sp. CAG:242
+Sample_S19B.46	Firmicutes bacterium CAG:475
+Sample_S28A.57	Firmicutes bacterium CAG_194_44_15
+Sample_S34A.18	uncultured Clostridium sp.
+Sample_s153.23	Cloacibacillus porcorum
+Sample_s184.6	Olsenella sp. AF21-51
+Sample_S36B.56	Firmicutes bacterium CAG:170
+Sample_S26A.48	Ruminococcaceae bacterium
+Sample_H2_61.38	Alistipes indistinctus
+Sample_S21B.12	Desulfovibrio piger
+Sample_H1_19.20	Eubacterium sp. CAG:38
+Sample_s98.21	Prevotella buccalis
+Sample_S25A.21	Ruminococcus sp. CAG:9-related_41_34
+Sample_s158.31	Porphyromonadaceae bacterium
+Sample_s201.30	Clostridium sp. CAG:678
+Sample_H1_14.44	Clostridium sp. OM05-6BH
+Sample_P06.1	Clostridiaceae bacterium TF01-6
+Sample_S32A.23	Parabacteroides johnsonii CAG:246
+Sample_H2_92.53	Lachnospiraceae bacterium
+Sample_s168.35	Eggerthella sp. CAG:298
+Sample_H1_14.33	Ruminococcus sp. CAG:330
+Sample_s159.31	Evtepia gabavorous
+Sample_H1_29.7	Oscillibacter sp.
+Sample_s90.15	Clostridiales bacterium
+Sample_H1_19.11	Lachnospiraceae bacterium
+Sample_P11.26	Clostridium sp. AF15-41
+Sample_s98.19	Streptococcus pasteurianus
+Sample_S40A.36	Lachnospiraceae bacterium
+Sample_S5A.19	Clostridiales bacterium
+Sample_s90.25	Clostridium sp. CAG:452
+Sample_H2_96.3	Clostridium sp. TM06-18
+Sample_s96.27	Blautia obeum
+Sample_S12B.30	Olsenella sp. An270
+Sample_S1B.16	Clostridiales bacterium
+Sample_s98.55	Gardnerella vaginalis
+Sample_S26A.33	uncultured Eubacterium sp.
+Sample_s156.3	Senegalimassilia anaerobia
+Sample_s200.12	Oscillibacter sp.
+Sample_s96.19	Bifidobacterium dentium
+Sample_S28A.29	Firmicutes bacterium ADurb.Bin467
+Sample_S36B.9	Gordonibacter sp. 28C
+Sample_S38B.34	Odoribacter laneus CAG:561
+Sample_S20B.11	Desulfovibrio fairfieldensis
+Sample_S26A.35	Oscillibacter sp.
+Sample_H2_28.54	uncultured Blautia sp.
+Sample_S28A.12	Butyrivibrio sp. CAG:318
+Sample_S36B.30	Clostridiales bacterium
+Sample_S11B.14	Gemmiger sp. An120
+Sample_s89.21	Clostridiales bacterium
+Sample_S28A.60	Clostridium sp. CAG:632
+Sample_s127.6	Anaerovibrio lipolyticus
+Sample_S39A.7	Sutterella sp. CAG:521
+Sample_s167.23	Clostridiales bacterium
+Sample_S33B.43	Clostridiales bacterium
+Sample_S27B.23	Ruminococcaceae bacterium
+Sample_H2_46.19	Barnesiella sp. An22
+Sample_S19B.36	Clostridiales bacterium
+Sample_S8A.17	Bacteroides sp.
+Sample_s154.2	Blautia sp. N6H1-15
+Sample_S24B.22	Alistipes sp. cv1
+Sample_S27A.9	Collinsella aerofaciens
+Sample_s77.13	Alistipes timonensis
+Sample_S38A.27	Micropruina glycogenica
+Sample_S24A.38	Coprococcus comes
+Sample_S7A.12	Anaerostipes hadrus
+Sample_s104.31	Roseburia hominis
+Sample_H2_61.1	Clostridia bacterium
+Sample_S20A.26	Ruminococcaceae bacterium
+Sample_S26B.49	Clostridiales bacterium
+Sample_S38A.24	Bifidobacterium catenulatum
+Sample_H1_11.52	Clostridiales bacterium
+Sample_S5B.53	methanogenic archaeon mixed culture ISO4-G1
+Sample_H2_109.12	Collinsella aerofaciens
+Sample_S17B.26	Coriobacteriia bacterium
+Sample_S42A.26	Firmicutes bacterium CAG:110
+Sample_H2_109.46	Clostridium sp. CAG:306
+Sample_s168.10	Ruminococcaceae bacterium
+Sample_S14A.38	Butyricimonas synergistica
+Sample_s153.13	Firmicutes bacterium ADurb.Bin467
+Sample_H2_61.25	Clostridiales bacterium
+Sample_H2_61.23	uncultured Eubacterium sp.
+Sample_P08.38	Tyzzerella sp.
+Sample_P01.5	Roseburia intestinalis
+Sample_H1_22.7	Ruminococcus flavefaciens
+Sample_s104.39	Eubacterium sp.
+Sample_S42B.32	Cloacibacillus sp. An23
+Sample_P12.2	Firmicutes bacterium
+Sample_H2_82.34	Dorea longicatena
+Sample_H1_08.4	Succinatimonas sp. CAG:777
+Sample_H2_28.8	Alistipes sp. 58_9_plus
+Sample_H2_84.29	uncultured Ruminococcus sp.
+Sample_H2_13.1	Alphaproteobacteria bacterium
+Sample_S42A.30	Ruminococcus sp. CAG:563
+Sample_S20A.47	Ruminococcus sp.
+Sample_H2_107.39	Prevotella sp.
+Sample_H1_08.12	Faecalibacterium prausnitzii
+Sample_S20B.33	Acidiphilium sp. CAG:727
+Sample_H1_11.40	Alistipes sp. AF17-16
+Sample_H1_14.9	Sutterella sp. AM11-39
+Sample_S18B.23	Eggerthella lenta
+Sample_s168.13	Lawsonibacter asaccharolyticus
+Sample_s96.3	Ruminococcaceae bacterium
+Sample_S38B.53	Eisenbergiella tayi
+Sample_S35B.12	Alistipes sp. cv1
+Sample_S19B.40	Clostridiales bacterium
+Sample_H2_96.8	Faecalimonas umbilicata
+Sample_S2A.5	Clostridium sp. CAG:417
+Sample_S5A.12	Clostridiales bacterium
+Sample_s184.47	Bacteroidales bacterium 55_9
+Sample_s143.25	Firmicutes bacterium ADurb.Bin467
+Sample_S28A.44	Ruminococcaceae bacterium
+Sample_s92.20	Comamonas kerstersii
+Sample_s185.5	Ruminococcaceae bacterium
+Sample_P06.7	Bifidobacterium catenulatum
+Sample_S19B.39	Coraliomargarita sp. CAG:312
+Sample_H2_92.17	Clostridium sp. CAG:230
+Sample_P12.1	Megasphaera elsdenii
+Sample_S38A.26	Collinsella sp. An271
+Sample_H1_11.56	Clostridiales bacterium
+Sample_H1_12.27	Firmicutes bacterium CAG:124
+Sample_H2_24.8	Sutterella sp. CAG:397
+Sample_H1_14.40	Firmicutes bacterium
+Sample_S19B.7	Coriobacteriia bacterium
+Sample_S14A.9	Clostridium sp. CAG:299
+Sample_S35A.5	Absiella sp. AM09-45
+Sample_s203.30	Coriobacteriia bacterium
+Sample_s203.33	Porphyromonadaceae bacterium
+Sample_S31A.18	Parasutterella excrementihominis CAG:233
+Sample_S28B.10	Coraliomargarita sp. CAG:312
+Sample_S29B.9	Oscillibacter sp. 57_20
+Sample_S4A.25	Eubacterium sp. CAG:274
+Sample_S38A.1	Ruminococcaceae bacterium
+Sample_S33B.28	Coriobacteriia bacterium
+Sample_S14A.1	[Clostridium] bolteae
+Sample_S40A.13	Streptococcus thermophilus
+Sample_S14B.7	Actinomyces sp. ICM47
+Sample_H1_11.37	Firmicutes bacterium
+Sample_s153.24	Coriobacteriia bacterium
+Sample_H2_107.38	Coraliomargarita sp. CAG:312
+Sample_H1_11.9	Lachnospiraceae bacterium
+Sample_S34A.34	Romboutsia ilealis
+Sample_S20A.3	Mesosutterella multiformis
+Sample_S22A.23	Azospirillum sp. CAG:239
+Sample_S26A.14	Clostridiales bacterium
+Sample_S36A.10	Ruminococcus sp. OM06-36AC
+Sample_S42A.4	Clostridiales bacterium
+Sample_s128.20	Ruminococcaceae bacterium
+Sample_H2_82.9	Streptococcus sp.
+Sample_S2B.21	Veillonellaceae bacterium
+Sample_S26A.29	Acidiphilium sp. CAG:727
+Sample_H2_84.7	Prevotella sp.
+Sample_S18A.3	Alistipes shahii
+Sample_P08.42	Agathobaculum butyriciproducens
+Sample_s148.3	Firmicutes bacterium CAG:94
+Sample_S24B.38	Clostridiales bacterium
+Sample_P02.4	Sutterella sp. CAG:521
+Sample_s98.14	Campylobacter hominis
+Sample_S28B.18	Lentisphaeria bacterium
+Sample_S5A.29	Eubacterium sp. CAG:115
+Sample_S26A.28	Clostridium sp. CAG:169
+Sample_S6A.25	Butyricimonas faecalis
+Sample_s11.26	Acidaminococcus fermentans
+Sample_S32A.44	Cryptobacterium sp. CAG:338
+Sample_S5A.45	Clostridiales bacterium
+Sample_S21B.36	Victivallis vadensis
+Sample_H2_76.11	Porphyromonadaceae bacterium
+Sample_H1_11.64	Clostridiales bacterium
+Sample_H2_109.28	uncultured Ruminococcus sp.
+Sample_S16A.5	Ruminococcus sp. DSM 100440
+Sample_S38A.15	Sphingomonas sp.
+Sample_H1_29.17	Bacteroides sp. CAG:530
+Sample_s143.34	Clostridiales bacterium
+Sample_s207.26	Gordonibacter urolithinfaciens
+Sample_S38A.14	Acidaminococcus sp. CAG:542
+Sample_S38B.40	Clostridiales bacterium
+Sample_s98.74	Clostridiales bacterium S5-A14a
+Sample_S14A.29	Porphyromonadaceae bacterium
+Sample_s11.14	Acidaminococcus sp. AM05-11
+Sample_S17B.42	Akkermansia sp. aa_0143
+Sample_S5B.32	Firmicutes bacterium ADurb.Bin467
+Sample_S40A.34	Coraliomargarita sp. CAG:312
+Sample_s156.26	Actinomyces sp. oral taxon 172
+Sample_s168.26	Senegalimassilia sp. KGMB04484
+Sample_S28A.9	Clostridiales bacterium
+Sample_s104.44	Prevotella sp. CAG:485
+Sample_S38B.15	Acholeplasmatales bacterium
+Sample_S35A.27	Oscillibacter sp. 57_20
+Sample_H2_92.8	Collinsella aerofaciens
+Sample_H2_13.35	Lachnospiraceae bacterium AM48-27BH
+Sample_P08.35	Roseburia sp. AM16-25
+Sample_S16A.3	uncultured Clostridium sp.
+Sample_S5B.61	Desulfovibrionaceae bacterium
+Sample_S42A.42	Ruminococcus sp. 37_24
+Sample_S38A.16	Microlunatus phosphovorus
+Sample_H1_12.35	Porphyromonadaceae bacterium
+Sample_s98.34	Clostridium sartagoforme
+Sample_S19A.15	Porphyromonadaceae bacterium
+Sample_P18.27	Eubacterium sp. AF36-5BH
+Sample_P18.2	Clostridiales bacterium
+Sample_H1_19.24	Clostridiaceae bacterium OF09-1
+Sample_S10B.4	Flavonifractor sp. An100
+Sample_S28A.37	Clostridiales bacterium
+Sample_S33A.37	Clostridium sp. AM27-31LB
+Sample_S8B.15	Eggerthella sinensis
+Sample_S6A.2	Ruminococcaceae bacterium
+Sample_S38B.18	Ruminococcaceae bacterium
+Sample_S29A.11	Subdoligranulum sp. 60_17
+Sample_S17A.23	Firmicutes bacterium CAG:137
+Sample_S38B.5	Mogibacterium diversum
+Sample_H2_82.13	Mogibacterium diversum
+Sample_S42B.29	Firmicutes bacterium CAG:94
+Sample_S19A.18	Coprobacillus cateniformis
+Sample_S32A.6	Lactococcus lactis
+Sample_S28A.16	Azospirillum sp. CAG:239
+Sample_P15.24	uncultured Butyricicoccus sp.
+Sample_H2_61.34	Firmicutes bacterium CAG:238
+Sample_H2_13.27	Klebsiella pneumoniae
+Sample_H2_109.19	Coraliomargarita sp. CAG:312
+Sample_S19A.30	Clostridiales bacterium
+Sample_H2_76.3	Firmicutes bacterium CAG:552_39_19
+Sample_S28A.17	Coraliomargarita sp. CAG:312
